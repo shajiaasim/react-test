@@ -18,7 +18,6 @@ export default function App() {
       complete: false,
     };
     setTodoList((prevToDos) => {
-      console.log(prevToDos);
       return [...prevToDos, obj];
     });
   }
